@@ -1,0 +1,8 @@
+In Python, variables are created when you assign a value to it:
+Python has no command for declaring a variable.
+
+py or python: to start Python REPL
+exit(): to exist python REPL
+
+You can get the data type of a variable with the type() function.
+
