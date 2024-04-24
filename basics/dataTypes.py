@@ -34,11 +34,14 @@ b = int(y)
 
 #convert from int to complex:
 c = complex(x)
+
+#convert from complex to int: NOT POSSIBLE Error: can't convert complex to int
 d= int(z)
 
 print(a) # 1.0
 print(b) # 2
-print(c) # (1+ 0j)
+print(c) # (1+0j)
+
 
 print(type(a))
 print(type(b))
