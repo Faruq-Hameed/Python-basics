@@ -36,6 +36,7 @@ b = int(y)
 c = complex(x)
 
 #convert from complex to int: NOT POSSIBLE Error: can't convert complex to int
+# You cannot convert complex numbers into another number type.
 d= int(z)
 
 print(a) # 1.0
@@ -47,3 +48,8 @@ print(type(a))
 print(type(b))
 print(type(c))
 
+# Python has a built-in module called random that can be used to make random numbers:
+
+import random
+
+print(random.randrange(9))
