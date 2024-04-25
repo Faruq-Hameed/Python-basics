@@ -29,3 +29,12 @@ print(len(a)) # 13
 print ('e' in a) # true
 print ('el' in a) # true
 print ('elc' in a) # false
+
+txt = "The best things in life are free!"
+
+if ('best' in txt):
+    print('txt contains "best"')
+    
+# To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
+
+print('hal' not in a) # true
