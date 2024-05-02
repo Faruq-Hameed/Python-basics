@@ -24,3 +24,7 @@ print(len(b.replace('!', ' from me')))# checking length of string //22
 
 print(b.split(',')) #[' Hello', ' World! ']
 print(b.split('l')) # [' He', '', 'o, Wor', 'd! ']
+
+# To concatenate, or combine, two strings you can use the + operator.
+
+print(a + b)
