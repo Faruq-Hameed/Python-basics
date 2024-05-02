@@ -41,3 +41,23 @@ print('hal' not in a) # true
 
 if 'freed' not in txt:
     print('freed is not there')
+
+'''
+Slicing
+You can return a range of characters by using the slice syntax.
+
+Specify the start index and the end index, separated by a colon, to return a part of the string.
+the specified end index is not returned
+'''
+
+ltt= 'world'
+print('letter is ', ltt[0:3]) #letter is  wor
+
+# By leaving out the start index, the range will start at the first character
+# By leaving out the end index, the range will go to the end
+
+print('letter is ', ltt[:4]) #letter is  worl
+
+# Use negative indexes to start the slice from the end of the string:
+# negative index start from -1 i.e last index is -1
+print('letter is ', ltt[-3:-1]) #letter is  rl
