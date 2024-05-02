@@ -27,4 +27,12 @@ print(b.split('l')) # [' He', '', 'o, Wor', 'd! ']
 
 # To concatenate, or combine, two strings you can use the + operator.
 
-print(a + b)
+print(a + b) # Hello, World! Hello, World!
+
+print('book' + ' warm.') # book warm.
+
+c = 'Faruq'
+
+d= b + c+ " " + 'hameed'
+
+print({d}) # {' Hello, World! Faruq'}
