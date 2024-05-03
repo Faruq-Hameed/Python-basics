@@ -36,3 +36,29 @@ c = 'Faruq'
 d= b + c+ " " + 'hameed'
 
 print({d}) # {' Hello, World! Faruq'}
+
+# we cannot combine strings and numbers
+
+age = 36
+# txt = "My name is John, I am " + age
+# print(txt) #ERROR: can only concatenate str (not "int") to str
+
+#  we can combine strings and numbers by using f-strings or the format() method!
+
+"""
+F-String was introduced in Python 3.6, and is now the preferred way of formatting strings.
+
+To specify a string as an f-string, simply put an f in front of the string literal,
+and add curly brackets {} as placeholders for variables and other operations. """
+
+
+# aged=20
+# txtA= f'Hello{aged}'
+# print(txtA) #ERROR: can only concatenate
+
+age = 36
+txt = format("My name is John,77 I am {age}") #My name is John,77 I am {age}
+print(txt)
+
+txt = f"My name is am {age}" #My name is am 36
+print(txt)
