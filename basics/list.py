@@ -16,5 +16,21 @@ print (myList) #['apple', 'orange', 'mango']
 
 # List items are indexed, the first item has index [0], the second item has index [1] etc.
 
-myList[10] = 'pawpaw'
+# myList[7] = 'pawpaw'  # ERROR Code
 print(myList)
+
+# Ordered
+
+'''When we say that lists are ordered, 
+it means that the items have a defined order, and that order will not change.
+
+If you add new items to a list, the new items will be placed at the end of the list.
+
+Note: There are some list methods that will change the order, but in general: 
+the order of the items will not change.'''
+
+# To determine how many items a list has, use the len() function:
+print(myList.__len__()) # i.e print(len(myList)) // 3
+
+print(type(myList))
+
