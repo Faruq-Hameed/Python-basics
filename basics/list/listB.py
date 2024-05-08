@@ -52,4 +52,43 @@ thistuple = ("kiwi", "orange")
 thislist.extend(thistuple)
 print(thislist) # ['apple', 'banana', 'cherry', 'kiwi', 'orange']
 
+# The remove() method removes the specified item.
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+print(thislist)
+
+#removing an unexisting item will throw an exception
+
+# If there are more than one item with the specified value, 
+# the remove() method removes the first occurance
+
+# The pop() method removes the specified index or last item if no index is specified
+listB = ['a', 'b', 'c', 'd', 'e', 'f']
+listB.pop() # ['a', 'b', 'c', 'd', 'e']
+print(listB)
+
+listB.pop(2) # ['a', 'b', 'd', 'e']
+print(listB)
+listB.pop(-2) 
+print(listB)# ['a', 'b', 'e']
+# The clear() method empties the list: it removes all items from the list and returns t
+
+# The del keyword also removes the specified index:
+thislist = ["apple", "banana", "cherry"]
+del thislist # Delete the entire list:
+# print(thislist) # Error: 'thislist' is not defined
+
+# The clear() method empties the list.
+
+# The list still remains, but it has no content.
+
+# Example
+# Clear the list content:
+
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thislist) # [] instead of throwing an exception like del
+
+
+
 
