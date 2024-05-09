@@ -12,6 +12,7 @@ Binary Types:	bytes, bytearray, memoryview
 None Type:	NoneType
 '''
 
+
 # You can convert from one type to another with the int(), float(), and complex()
 # e.g 
 x= int(5)
