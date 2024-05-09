@@ -37,7 +37,7 @@ c = complex(x)
 
 #convert from complex to int: NOT POSSIBLE Error: can't convert complex to int
 # You cannot convert complex numbers into another number type.
-d= int(z)
+# d= int(z)
 
 print(a) # 1.0
 print(b) # 2
@@ -52,4 +52,4 @@ print(type(c))
 
 import random
 
-print(random.randrange(9))
+print(random.randrange(1218, 9877))

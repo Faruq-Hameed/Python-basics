@@ -15,7 +15,13 @@ b = " Hello, World! "
 
 print(b.strip()) #Hello, World!
 
+
+
 # The replace() method replaces a string with another string:
+
+
+
+### General PRD for Point-Based System
 
 print(b.replace('!', ' from me'))# Hello, World from me
 print(len(b.replace('!', ' from me')))# checking length of string //22
