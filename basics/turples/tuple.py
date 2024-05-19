@@ -38,7 +38,7 @@ print(type(fruits_a)) # <class 'tuple'>
 
 # It is also possible to use the tuple() constructor to make a tuple.
 
-items= tuple(('apple','banana'))
+items= tuple(('apple','banana')) # note the double round-brackets
 print(items)
 
 '''
@@ -57,3 +57,9 @@ When choosing a collection type, it is useful to understand the properties of th
 Choosing the right type for a particular data set could mean retention of meaning, 
 and, it could mean an increase in efficiency or security.
 '''
+
+# You can access tuple items by referring to the index number, inside square brackets:
+tuple_mems=tuple(['a', 'b', 'c'])
+print(type(tuple_mems))
+print(tuple_mems[0])
+
