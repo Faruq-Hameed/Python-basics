@@ -46,3 +46,10 @@ If you want to multiply the content of a tuple a given number of times, you can 
 '''
 tuple4= tuple3 * 2
 print(tuple4) # ('a', 'b', 'c', 1, 2, 3, 'a', 'b', 'c', 1, 2, 3)
+'''
+Python has two built-in methods that you can use on tuples.
+
+Method	Description
+count()	Returns the number of times a specified value occurs in a tuple
+index()	Searches the tuple for a specified value and returns the position of where it was found
+'''
